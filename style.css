@@ -36,7 +36,7 @@ p{
     height:100vh;
     background-size:cover;
     background-position:center;
-    
+
 }
 /* .overlay {
     position: absolute;
@@ -52,13 +52,13 @@ p{
     width: 100%;
     height: 100%;
     z-index:10;
-  
+
 }
 .hero .header{
     display:flex;
     justify-content:space-between;
     align-items:center;
- 
+
 }
 
 .hero .intro{
@@ -83,13 +83,13 @@ p{
    justify-content:center;
    align-items:center;
    margin:100px 0;
-  
+
 }
 .progress-text{
     display:flex;
     align-items:center;
     gap:10rem;
- 
+
 }
 .progress-text div{
     display:flex;
@@ -105,7 +105,7 @@ p{
     width:50%;
     height:30px;
     position:relative;
-    
+
 }
 .progress-bar .total{
     width:100%;
@@ -124,12 +124,16 @@ p{
 
 }
 
+
+
 /* GALERIE  */
 main{
-    
+
     background:#252525;
     position:relative;
 }
+
+
 /* VIDEO DE PRESENTATION */
 
 .presentation-video{
@@ -138,10 +142,17 @@ main{
     background:#38B5FE;
     position:absolute;
    top:-150px;
-    left:15%;   
+    left:15%;
     z-index:20;
     border-radius:10px;
 }
+.image-link-z{
+	width:300px;
+	height:300px;
+	object-fit:cover;
+	border-radius:10px;
+}
+
 .photos{
     padding-top:550px;
 
@@ -151,12 +162,12 @@ main{
 }
 .photos .gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    grid-template-rows: repeat(5, 200px); 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 200px);
     gap:0.5rem;
     margin:50px 5% 150px 5%;
   }
-  
+
  .photos .gallery img {
     width: 100%;
     height: 100%;
@@ -186,7 +197,7 @@ main{
     z-index: -1;
   }
 .cta-text {
-   
+
     z-index:10;
     display:flex;
     flex-direction:column;
@@ -216,25 +227,25 @@ main{
 @media only screen and (max-width:980px) {
     h1{
         font-size:20px;
-       
+
     }
     p{
         font-size:12px;
-       
+
     }
     .container{
-      
+
         height:min-content;
-      
+
     }
     .contribute{
         font-size:16px;
         padding:10px 25px;
-       
+
     }
     .container .hero{
         padding:20px 10px;
-   
+
     }
     .progress{
       margin:50px 0;
@@ -250,7 +261,7 @@ main{
         width:90%;
         height:30px;
         position:relative;
-        
+
     }
     main{
         position:static;
@@ -263,21 +274,21 @@ main{
         height:300px;
         width:90%;
       position:static;
-      
+
     }
     .photos{
         padding-top:20px;
-    
+
     }
     .photos .gallery {
-        grid-template-columns: repeat(2, 1fr); 
-        grid-template-rows: repeat(10, 150px); 
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(10, 150px);
         margin:30px 10px ;
     }
-    
+
     .cta-text {
         padding:30px 20px ;
-    
+
     }
     .cta-text p{
         font-size:12px;
@@ -287,6 +298,6 @@ main{
     }
     .copyright {
         padding: 20px;
-      
+
     }
   }
