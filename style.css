@@ -124,7 +124,7 @@ p{
     left:0;
     background:#38B5FE;
     height:100%;
-    width:5%;
+    width:10%;
     border-radius:20px;
 
 }
@@ -190,7 +190,7 @@ main{
   } */
 .cta{
     position:relative;
-    background:url("medias/footer.png")no-repeat;
+    background-color: #000;
     background-size:cover;
     background-position:center;
 }
